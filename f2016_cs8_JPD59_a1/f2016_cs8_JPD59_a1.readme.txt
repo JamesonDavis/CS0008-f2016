@@ -1,0 +1,11 @@
+Jameson Davis
+
+Hello. This assignment dealt with converting units, calculating Gas consumption, and outputting results in a clear way.
+Here is the methodology behind my programs:
+1. Ask user to input unit system preference
+2. Ask for distance driven and how much gas was used. Use if-elif statement to properly follow user's unit system choice
+3. Define variables based on unit system used
+4. Convert unit system from initial user choice to other unit system (USC or metric)
+5. Four variables are defined at this point, so we can calculate the gas consumption
+6. Gas consumption rating can now be defined by using if-elif statements
+7. With all variables defined, we can now print out a results table

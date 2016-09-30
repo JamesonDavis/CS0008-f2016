@@ -1,0 +1,9 @@
+#This is the results after the first test run
+Choose either USC or metric:'USC'
+Enter number of miles travelled:100
+Enter number of gallons of gas used:15
+('USC', 'metric')
+('Distance:', 100, 62.137100000000004)
+('Gas:', 15, 3.9625800000000004)
+('Consumption:', 6, 6.0)
+('Gas Consumption Rating:', 'Excellent')
