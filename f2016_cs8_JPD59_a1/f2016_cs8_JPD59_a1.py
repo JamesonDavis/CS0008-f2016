@@ -1,4 +1,5 @@
 #First ask user to input unit system preference
+#Input 'USC' or 'metric'
 unit = input('Choose either USC or metric:')
 #Ask for distance driven and how much gas was used. Use if-elif statement to properly follow user's unit system choice
 #Define variables based on unit system used
@@ -37,9 +38,9 @@ elif metric_consumption <= 8:
 else:
     print('Error')
 #With all variables defined, we can now print out a results table
-#table not formatted yet
-print('USC', 'metric')
-print('Distance:', USC_distance, metric_distance)
-print('Gas:', USC_gas, metric_gas)
-print('Consumption:', USC_consumption, metric_consumption)
+#table is formatted to have each value be rounded to three digits
+print('USC', 'metric',)
+print('Distance_____:', format(USC_distance, '.3f'), 'miles', format(metric_distance, '.3f'), 'km')
+print('Gas__________:', format(USC_gas, '.3f'), 'gallons', format(metric_gas, '.3f'), 'liters')
+print('Consumption__:', format(USC_consumption, '.3f'), 'mpg', format(metric_consumption, '.3f'), '1/100 km')
 print('Gas Consumption Rating:', Gas_rating)

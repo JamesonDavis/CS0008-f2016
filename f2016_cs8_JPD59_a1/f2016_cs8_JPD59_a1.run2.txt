@@ -1,0 +1,9 @@
+#Results after second test
+Choose either USC or metric:'metric'
+Enter number of km travelled:250
+Enter number of liters of gas used:70
+('USC', 'metric')
+('Distance_____:', '402.335', 'miles', '250.000', 'km')
+('Gas__________:', '264.979', 'gallons', '70.000', 'liters')
+('Consumption__:', '1.000', 'mpg', '28.000', '1/100 km')
+('Gas Consumption Rating:', 'Extremely poor')

@@ -9,3 +9,5 @@ Here is the methodology behind my programs:
 5. Four variables are defined at this point, so we can calculate the gas consumption
 6. Gas consumption rating can now be defined by using if-elif statements
 7. With all variables defined, we can now print out a results table
+
+Second version uploaded with correct number formatting.
