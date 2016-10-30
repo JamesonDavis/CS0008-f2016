@@ -1,0 +1,27 @@
+Jameson Davis
+
+Hello. This assignment dealt with reading files, calculating the number of lines and total distance ran, and outputting results in a clear way.
+
+Here is the methodology behind my programs:
+
+Two functions were defined and used in this program: processFile and printKV.
+
+ProcessFile:
+1. Creates a loop to read the file line by line.
+2. Converts the string into an array.
+3. Adds one for each line and adds the data together.
+4. Removes the last line.
+5. Returns with the total number of lines and total amount of data.
+
+PrintKV:
+1. Prints out the info that is returned from the function.
+2. Formats the key at n-length characters.
+3. Formats the string so that it is 30 spaces long.
+4. Formats the integer so that it is 10 spaces long.
+5. Formats the float so that it is 10 spaces and 3 decimal spaces long.
+
+With both functions defined, the program can ask for input to correctly output the desired results.
+1. Ask user for a file to input
+2. Set total distance and total number = to 0
+3. Creates a loop to open the function, return, and quit
+4. Initialize the printKV function
