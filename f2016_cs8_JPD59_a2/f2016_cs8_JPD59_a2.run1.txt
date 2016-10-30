@@ -1,0 +1,10 @@
+C:\Users\Jameson\AppData\Local\Programs\Python\Python35\python.exe C:/Users/Jameson/PycharmProjects/CS0008-f2016/f2016_cs8_JPD59_a2/f2016_cs8_JPD59_a2.py
+File to be read: "f2016_cs8_a2.data.1.csv"
+Traceback (most recent call last):
+  File "C:/Users/Jameson/PycharmProjects/CS0008-f2016/f2016_cs8_JPD59_a2/f2016_cs8_JPD59_a2.py", line 40, in <module>
+    fh = open(name, 'r')
+OSError: [Errno 22] Invalid argument: '"f2016_cs8_a2.data.1.csv"'
+
+Process finished with exit code 1
+
+#File could not be found
