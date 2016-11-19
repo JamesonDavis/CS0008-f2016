@@ -1,0 +1,18 @@
+Jameson  Davis
+
+Hello. This program reads a master input file, and reads the data files within the input file.
+The program retrieves the names of the data files and from each one of them reads every line, extract name and distance.
+The results are then outputted and exported to a separate .csv file.
+
+Methodology:
+
+1. Open master input file. Then open files within master input file.
+2. Initialize data a container using a dictionary (person_distances) and a list (data).
+3. Create nested loop to read each line of each file.
+4. If a person's name appears more than once, appends run time to the end of the name.
+5. Calculate the max and min times for all runners.
+6. Calculate the total distance of all runners.
+7. While running through the list of people, counter keeps track of duplicate runners.
+8. Counter keeps record of the number of participants.
+9. Print each runner and time to output file (output file must be opened first).
+10. Print out results (all results are calculated or defined at this point.
