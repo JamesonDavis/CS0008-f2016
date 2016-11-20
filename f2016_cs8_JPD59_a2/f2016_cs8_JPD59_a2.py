@@ -1,3 +1,8 @@
+#
+# needs standard header as shown in class
+# with name, username, class and instructor name and so forth
+#
+
 #Function processFile is defined
 #Creates a loop to read the file line by line
 #Converts the string into an array
@@ -23,11 +28,20 @@ def processFile(fh):
 #Formats the float so that it is 10 spaces and 3 decimal spaces long
 def printKV(key, value, klen = 0):
     if isinstance(value, str):
-        print (str.rjust(klen, 0) + " " + format(value, '30,.f'))
+        # MN:  if you want to format a string and right justfy it, 
+        #      you need to apply the method rjust to the variable containing the string itself
+        # MN: also in this statments, value should be a string so the format string should %s
+        ##print (str.rjust(klen, 0) + " " + format(value, '30,.f'))
+        print (key.rjust(klen, ' ') + " " + format(value, '20s'))
     elif isinstance(value, int):
-        print (str.rjust(klen, 10) + " " + format(value, '10,'))
+        # MN: same as above about the method rjust
+        # MN: in this statement, value is an integer, so format string should be 'd'
+        ##print (str.rjust(klen, 10) + " " + format(value, '10,'))
+        print (key.rjust(klen, ' ') + " " + format(value, '10,d'))
     elif isinstance(value, float):
-        print (str.rjust(klen, 10) + " " + format(value, '10,.3f'))
+        # MN: same as above about the method rjust
+        ##print (str.rjust(klen, 10) + " " + format(value, '10,.3f'))
+        print (key.rjust(klen, ' ') + " " + format(value, '10,.3f'))
 
 #Asks user for a file to input
 #Sets total distance and total number = to 0
@@ -40,6 +54,7 @@ while name and name != "quit" and name != "Q":
     fh = open(name, 'r')
     partial_total_number, partial_distance = processFile(fh)
 
+    # MN: output is not aligned
     printKV('Partial Total # of Lines: ', partial_total_number)
     printKV('Partial distance run: ', partial_distance)
     fh.close
@@ -48,5 +63,6 @@ while name and name != "quit" and name != "Q":
     name = input('File to be read: ')
 
 #Outputs total results after loop finishes outputting partial results
+# MN: output is not aligned
 printKV('Total # of lines: ', total_number)
 printKV('Total Distance: ', total_distance)
