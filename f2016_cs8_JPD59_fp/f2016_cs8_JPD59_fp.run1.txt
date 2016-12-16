@@ -1,0 +1,21 @@
+#Results after first run
+C:\Users\Jameson\AppData\Local\Programs\Python\Python35\python.exe C:/Users/Jameson/PycharmProjects/CS0008-f2016/f2016_cs8_JPD59_fp/f2016_cs8_JPD59_fp.py
+Please enter master file: f2016_cs8_fp.data.txt
+Number of input files read:     3
+Total number of lines read:   450
+
+Total distance run:  23222.95595
+
+Maximum distance run:     99.91761
+  By participant: Roland
+
+Minimum distance run:      0.05789
+  By participant:  Alex
+
+Total number of participants:   388
+Number of participants with multiple records:      0.00000
+
+Process finished with exit code 0
+
+All process appear to be working except for calculating runners with multiple records.
+This may be because participants.values is returns a value of zero in line 162.

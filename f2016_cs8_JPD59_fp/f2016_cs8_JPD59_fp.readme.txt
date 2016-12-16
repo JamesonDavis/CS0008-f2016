@@ -1,0 +1,19 @@
+Jameson  Davis
+
+Hello. This program reads a master input file, and reads the data files within the input file.
+The program retrieves the names of the data files and from each one of them reads every line, extract name and distance.
+The results are then outputted and exported to a separate .csv file.
+
+This program is similar to assignment 3. However, a class was used in this program.
+The method of obtaining the results is quite different from assignment 3.
+
+Methodology:
+
+1. Create class 'participant' with appropriate properties and methods.
+2. Create function 'getDataFromFile' to read all lines in the file and processes them and add them to an output list.
+3. Ask user to inout the master file.
+4. Calculate number of files, lines, and distance.
+5. Calculate maximum and minimum by looping through distances and updating max/min each loop if necessary
+6. Calculate total number of runners and number of appearances each one of them has.
+7. Output concatenated list to separate cvs file.
+8. Output calculation results to the user.
