@@ -18,4 +18,4 @@ Number of participants with multiple records:      0.00000
 Process finished with exit code 0
 
 All process appear to be working except for calculating runners with multiple records.
-This may be because participants.values is returns a value of zero in line 162.
+This may be because participants.values() returns a value of zero in line 162.
