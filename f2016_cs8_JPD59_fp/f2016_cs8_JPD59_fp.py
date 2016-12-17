@@ -123,7 +123,10 @@ for item in rawData:
     if not item['name'] in participants.keys():
         participants[item['name']] = participant(item['name'])
     # insert distance in the list for this participant
-        participants[item['name']].addDistance(item['distance'])
+    # MN: this indentation is incorrect.
+    #     you are going to add the distance run only ones for each participant
+    #    participants[item['name']].addDistance(item['distance'])
+    participants[item['name']].addDistance(item['distance'])
 
 # initialize accumulators for max and min distances
 # min distance run and name
